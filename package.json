@@ -1,0 +1,21 @@
+{
+  "name": "ntw_ins_js",
+  "version": "1.0.0",
+  "description": "to convert number to words based on Indian Number System",
+  "main": "ToWords_INS.js",
+  "scripts": {
+    "ng": "ng",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ng build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbkshetry/NTW_INS_JS.git"
+  },
+  "author": "Shankar Kshetry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbkshetry/NTW_INS_JS/issues"
+  },
+  "homepage": "https://github.com/sbkshetry/NTW_INS_JS#readme"
+}
