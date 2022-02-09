@@ -60,14 +60,9 @@ function handleDecimal(str:string){
     return {"first":first,"number_format_d":number_format_d,"secondStr":secondStr}
 }
 
-type ReturnTypeItem = {
-    Number: string;
-    Formated_Number: string;
-    NumberInWord: string;
-}
 
 
-export function toWords_INS(s:string):ReturnTypeItem{
+export function toWords_INS(s:string){
     var str = s.toString(); 
     str = str.replace(/[\, ]/g,'');
     var number_format=""
