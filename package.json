@@ -1,8 +1,8 @@
 {
-  "name": "ntw_ins_js",
-  "version": "1.0.0",
+  "name": "ntw_ins_njs",
+  "version": "1.0.2",
   "description": "to convert number to words based on Indian Number System",
-  "main": "ToWords_INS.js",
+  "main": "index.js",
   "scripts": {
     "ng": "ng",
     "test": "echo \"Error: no test specified\" && exit 1",

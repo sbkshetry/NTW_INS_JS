@@ -96,22 +96,10 @@ function toWords_INS(s){
         }
      }
 
-     return {"Number":str,"Formated_Number":number_format+number_format_d,"NumberInWord": fisrtStr.trimEnd()+secondStr}
+     return {"Number":str,"Formated_Number":number_format+number_format_d,"NumberInWord": fisrtStr.trimEnd()+secondStr.trimEnd()}
     
 }
-/*console.log(toWords_INS("123.912312"))
-console.log(toWords_INS("20"))
-console.log(toWords_INS("21"))
-console.log(toWords_INS("99"))
-console.log(toWords_INS("0.001"))
-console.log(toWords_INS("10.001"))
-console.log(toWords_INS("17"))
-console.log(toWords_INS("917"))
-console.log(toWords_INS("1000"))
-console.log(toWords_INS("991191"))
-console.log(toWords_INS("9911919989810100"))
-console.log(toWords_INS("10300805007000001"))
-console.log(toWords_INS("100000000000000100"))
-console.log(toWords_INS("100000000000000000"))
-console.log(toWords_INS("10000000000000000010avc"))
-*/
+
+module.exports.toWords= function(number){
+    return toWords_INS(number)
+}
