@@ -1,8 +1,8 @@
 {
   "name": "ntw_ins_njs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "to convert number to words based on Indian Number System",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "ng": "ng",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/sbkshetry/NTW_INS_JS/issues"
   },
-  "homepage": "https://github.com/sbkshetry/NTW_INS_JS#readme"
+  "homepage": "https://github.com/sbkshetry/NTW_INS_JS#readme",
+  "dependencies": {
+    "ntw_ins_njs": "^1.0.3"
+  }
 }
