@@ -42,7 +42,7 @@ function isNumeric(str) {
     return !isNaN(parseFloat(str)); // ...and ensure strings of whitespace fail
 }
 function validateBigNumber(first, str) {
-    if (first.length > 18) {
+    if (first.length > 19) {
         throw str + " is more than ninety nine shankh. this type of big number is not yet supported as of now.";
     }
 }

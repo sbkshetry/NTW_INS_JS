@@ -1,6 +1,6 @@
 {
   "name": "ntw_ins_njs",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "to convert number to words based on Indian Number System",
   "main": "main.js",
   "scripts": {

@@ -33,11 +33,11 @@ function validateNumber(str:string){
     }
 }
 function isNumeric(str:any) {
-    if (typeof str != "string") return false // we only process strings!  
-    return !isNaN(parseFloat(str)) // ...and ensure strings of whitespace fail
+    var floatValues =  /^\d*(\.\d+)?$/;
+    return str.match(floatValues)!=null 
   }
 function validateBigNumber(first:string,str:string){
-    if(first.length>18){
+    if(first.length>19){
         throw str+ " is more than ninety nine shankh. this type of big number is not yet supported as of now."
     }
 }
