@@ -37,9 +37,8 @@ function validateNumber(str) {
     }
 }
 function isNumeric(str) {
-    if (typeof str != "string")
-        return false; // we only process strings!  
-    return !isNaN(parseFloat(str)); // ...and ensure strings of whitespace fail
+    var floatValues =  /^\d*(\.\d+)?$/;
+    return str.match(floatValues)!=null 
 }
 function validateBigNumber(first, str) {
     if (first.length > 19) {
